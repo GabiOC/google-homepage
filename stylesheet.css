@@ -1,4 +1,4 @@
-/* custom CSS */
+/* general */
 
 a {
 	font-family: arial, sans-serif;
@@ -7,12 +7,70 @@ a {
 	text-decoration: none;
 }
 
+/* navbar */
+
 li {
     list-style-type: none;
     display: inline-block;
     margin: 10px 5px;
     vertical-align: middle;
 }
+
+.navbar{
+	float: right;
+}
+
+/* content */
+
+.logo{
+	text-align: center;
+	position: relative;
+	padding-top: 150px;
+	padding-bottom: 25px;
+}
+
+img#logo{
+	height: 95px;
+	width: 269px;
+}
+
+form{
+  	overflow: hidden;
+  	width: 560px;
+  	height: 80px;
+  	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+input{
+	width: 542px;
+	height: 25px;
+	font: 16px arial,sans-serif;
+	color: #222;
+}
+
+button{
+	margin: 16px 7px;
+	display: inline-block;
+	border: 1px solid #dcdcdc;
+	height: 30px;
+	width: 106px;
+  	background: #f5f5f5;
+  	font-size: 12px;
+  	color: #404040;
+  	font-weight: bold;
+  	text-align: center;
+  	border-radius: 2px;
+  	font-family: Arial,sans-serif;
+}
+
+button.lucky{
+	width: 120px;
+}
+
+/* footer */
 
 footer{
 	position: absolute;
@@ -22,46 +80,16 @@ footer{
 	border-top: 1px solid #e4e4e4;
 	line-height: 40px;
 	min-width: 100%;
-	color: #777;
-}
-
-.navbar{
-	float: right;
-}
-
-form{
-  	overflow: hidden;
-  	width: 541px;
-  	height: 27px;
-  	display: block;
-}
-
-input{
-	width: 524px;
-	height: 20px;
-}
-
-input .btn{
-
-}
-
-.logo{
-	margin-left: auto;
-    margin-right: auto;
-	display: block;
-	padding-top: 150px;
-	height: 105px;
-	width: 290px;
 }
 
 #footer-left {
 	position: absolute;
-	left: 33px;
-	bottom: -10px;
+	left: -25px;
+	bottom: -25px;
 }
 
 #footer-right {
 	position: absolute;
 	right: 33px;
-	bottom: -10px;
+	bottom: -25px;
 }
